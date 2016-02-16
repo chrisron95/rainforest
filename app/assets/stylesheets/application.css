@@ -13,7 +13,6 @@
  *= require_tree .
  *= require_self
  */
-<<<<<<< HEAD
 html, body{
   height: 100vh;
 }
@@ -55,8 +54,6 @@ aside {
  }
 }
 
-=======
->>>>>>> chrisron95/develop
  .gravatar {
    float: left;
    margin-right: 10px;
