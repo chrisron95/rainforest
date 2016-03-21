@@ -25,6 +25,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production
 
+group :test, :production do
+  gem 'pg'
+end
+
+
 gem 'carrierwave'
 
 # Use ActiveModel has_secure_password
@@ -39,6 +44,8 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sqlite3'
+
 end
 
 group :development do
